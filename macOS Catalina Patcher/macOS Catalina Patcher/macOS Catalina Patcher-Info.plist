@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>VolumeIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.dosdude1.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -20,6 +20,8 @@
 	<string>1.4.4</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSAppTransportSecurity</key>
